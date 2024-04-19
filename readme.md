@@ -19,4 +19,6 @@
 ```
 **naming convention: using small cases with Hyphones(-) no space**
 
+down command okasri run chesthe manam ye changes chesina yenni files create chesina direct ga git hub loki velthai
+
 git add . ; git commit -m "my practice sessions" ; git push -u origin main
