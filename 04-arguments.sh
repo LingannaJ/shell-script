@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #Declaring 0f variale, mana ela variables ni declar chesi isthunnam
-PERSON1=shiva #space anedhi undakudashu = ki value ki madyalo
-PERSON2=rama 
+PERSON1=$1 #ila arguments ichi manam bayatinundi value declar chesthe adhi thiskuntundhi
+PERSON2=$2 
 
 #reffering of variables
 echo "$PERSON1:: hello $PERSON2, how are you?"
