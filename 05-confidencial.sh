@@ -2,10 +2,10 @@
 
 echo "please Enter username::"
 
-read USERNAME #ikkada username anedhi variable 
+read -s USERNAME #ikkada username anedhi variable 
 
 echo "Please Enter password::"
 
-read PASSWORD
+read -s PASSWORD
 
 echo "Username is: $USERNAME, Password is: $PASSWORD"
