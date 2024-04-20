@@ -8,7 +8,7 @@ GODS=("Shiva" "Rama" "Krishna")
 
 #index anedhi kuda 0 nundi start avthundhi 0,1,2, ila 
 
-echo "frist god is ${Gods[0]}"
-echo "frist god is ${Gods[1]}"
-echo "frist god is ${Gods[2]}"
-echo "frist god is ${Gods[@]}"
+echo "frist god is: ${Gods[0]}"
+echo "second god is: ${Gods[1]}"
+echo "third god is: ${Gods[2]}"
+echo "All gods is: ${Gods[@]}"
