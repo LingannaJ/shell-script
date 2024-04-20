@@ -12,3 +12,6 @@ fi
 
 dnf install mysql -y
 
+echo "is script proceeding?"
+
+
