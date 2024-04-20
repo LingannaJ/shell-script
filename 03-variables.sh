@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-PERSON1=Chikki #space anedhi undakudashu = ki value ki madyalo
-PERSON2=Chitti 
+PERSON1=shiva #space anedhi undakudashu = ki value ki madyalo
+PERSON2=rama 
 
 
 echo "$PERSON1:: hello $PERSON2, how are you?"
