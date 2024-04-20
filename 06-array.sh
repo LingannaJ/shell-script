@@ -13,4 +13,4 @@ echo "second god is: ${GODS[1]}"
 echo "third god is: ${GODS[2]}"
 echo "All gods are: ${GODS[@]}"
 
-echo "All gods are in full: ${GODS[@]}
+echo "All gods are in full: ${GODS[@]}"
