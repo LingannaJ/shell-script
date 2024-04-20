@@ -12,3 +12,5 @@ echo "frist god is: ${Gods[0]}"
 echo "second god is: ${Gods[1]}"
 echo "third god is: ${Gods[2]}"
 echo "All gods are: ${Gods[@]}"
+
+echo "All gods in full: ${Gods[@]}
