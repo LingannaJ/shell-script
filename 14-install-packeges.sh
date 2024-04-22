@@ -11,4 +11,8 @@ else
     echo "you are super user."
 fi
 
-  echo "All packeges: $@"
+for i in $@
+do 
+  echo "packege to install: $i"
+
+done
