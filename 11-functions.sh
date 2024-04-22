@@ -3,16 +3,20 @@
 USERID=$(id -u)
 
 VALIDATE (){
-   echo "Exit status: $1"
-   echo "what are you doing: $2"
+    if [ $1 -ne 0 ]
+    then echo "$2... FAILURE"
+       Exit 1
+    else
+       echo "$2.... SUCCESS"
+    fi
 }
-if [$USERID -ne 0 ]
-then
-    echo "please run this script with root access."
-    exit 1 #manual ga error vasthe exit avvamani cmd isthunam indhulo
-else
+    if [$USERID -ne 0 ]
+    then
+      echo "please run this script with root access."
+      exit 1 #manual ga error vasthe exit avvamani cmd isthunam indhulo
+    else
     echo "you are super user."
-fi
+    fi
 
 dnf install mysql -y
 VALIDATE $? "Installing mysql"
