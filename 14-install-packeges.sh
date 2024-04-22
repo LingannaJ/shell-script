@@ -11,4 +11,4 @@ else
     echo "you are super user."
 fi
 
-  echo "All packeges: $@
+  echo "All packeges: $@"
